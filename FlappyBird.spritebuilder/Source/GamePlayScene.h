@@ -9,6 +9,10 @@
 #import "CCNode.h"
 #import "Character.h"
 
+// duas Variaveis definidas depois
+Character*     character;
+CCPhysicsNode* physicsNode;
+
 typedef NS_ENUM(NSInteger, DrawingOrder) {
     DrawingOrderPipes,
     DrawingOrderGround,
